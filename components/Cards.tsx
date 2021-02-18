@@ -38,6 +38,9 @@ export const FeaturedCard = ({ item, onPress }: Props) => {
         <Text className="text-base font-rubik text-white" numberOfLines={1}>
           {item.address}
         </Text>
+        {/* <Text className="text-base font-rubik text-white" numberOfLines={1}>
+          {item.address}
+        </Text> */}
 
         <View className="flex flex-row items-center justify-between w-full">
           <Text className="text-xl font-rubik-extrabold text-white">
